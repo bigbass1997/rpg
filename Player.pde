@@ -1,5 +1,3 @@
-import SpriteCut;
-
 class Player {
 
   PImage walk;
@@ -20,7 +18,7 @@ class Player {
   }
 
   void display(){
-    image(walk_left[0], width/2, height/2);
+    image(walk_left.get(0), width/2, height/2);
   }
 
 }
