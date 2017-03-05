@@ -4,7 +4,7 @@ Player player;
 
 void setup(){
 size(800,800);
-player = new Player("data/ninja_m.png", 26, 36);
+player = new Player("data/ninja_m.png");
 background(0);
 }
 
